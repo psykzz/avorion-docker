@@ -22,9 +22,15 @@ RUN chmod 755 /opt/start.sh
 VOLUME /root/.avorion/galaxies/avorion_galaxy
 
 
+# Ports required
 EXPOSE 27000
+EXPOSE 27000/udp
+EXPOSE 27003
+EXPOSE 27003/udp
+EXPOSE 27020
+EXPOSE 27021
+
+# Admin steamID
 ENV USER=nobody
 
 CMD ["/opt/start.sh"]
-
-
