@@ -16,7 +16,7 @@ Starting the server
 * Create a `/data` directory, this will be mounted into the container.
 * Add your settings.ini and fill out the values as you like.
 
-> **Note: if you change ports, you'll need to adjust the port mappings.**
+> **Note: if you change ports in the config, you'll need to adjust the port mappings.**
 
 Run the following to start the server.
 ```
