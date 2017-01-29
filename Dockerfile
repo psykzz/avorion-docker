@@ -1,6 +1,6 @@
 FROM ubuntu:14.04
 
-MAINTAINER Kai Mallea <kmallea@gmail.com>
+MAINTAINER PsyKzz <matt.daemon660@gmail.com>
 
 ENV DEBIAN_FRONTEND noninteractive
 
@@ -23,7 +23,7 @@ VOLUME /root/.avorion/galaxies/avorion_galaxy
 
 
 EXPOSE 27000
-ENV USER=psykzz
+ENV USER=nobody
 
 CMD ["/opt/start.sh"]
 
