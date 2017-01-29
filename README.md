@@ -26,6 +26,8 @@ docker run --name avorion -d -v `pwd`/data:/root/.avorion/galaxies/avorion_galax
 
 The server data will be saved locally on the host machine within the data folder. This allows you to bring the server down, and restart when needed to do any updates.
 
+You can specify an admin via the environment, adding `-e USER=<steamid>` to set the default admin on server start.
+
 
 ## Contributing
 
