@@ -1,4 +1,14 @@
-# avorion-docker
+Avorion for Docker
+==================
+
+### Game Info
+
+For some information about the game see https://www.kickstarter.com/projects/koonschi/avorion
+
+This is a docker image to create a dedicated server.
+
+**Currently supported version: 0.10.2**
+
 
 ## Getting started
 Starting the server 
