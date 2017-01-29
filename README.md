@@ -1,6 +1,7 @@
 Avorion for Docker
 ==================
 
+
 ### Game Info
 
 For some information about the game see https://www.kickstarter.com/projects/koonschi/avorion
@@ -24,6 +25,7 @@ docker run --name avorion -d -v `pwd`/data:/root/.avorion/galaxies/avorion_galax
 ```
 
 The server data will be saved locally on the host machine within the data folder. This allows you to bring the server down, and restart when needed to do any updates.
+
 
 ## Contributing
 
