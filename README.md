@@ -1,4 +1,6 @@
-[![Github All Releases](https://img.shields.io/github/downloads/psykzz/avorion-docker/total.svg?style=flat-square)]() [![Docker Automated buil](https://img.shields.io/docker/automated/psykzz/avorion-docker.svg?style=flat-square)]() [![Docker Pulls](https://img.shields.io/docker/pulls/psykzz/avorion-docker.svg?style=flat-square)]()
+[![GitHub release](https://img.shields.io/github/release/psykzz/avorion-docker.svg?style=flat-square)]()
+[![Docker Automated buil](https://img.shields.io/docker/automated/psykzz/avorion-docker.svg?style=flat-square)]()
+[![Docker Pulls](https://img.shields.io/docker/pulls/psykzz/avorion-docker.svg?style=flat-square)]()
 
 Avorion for Docker
 ==================
