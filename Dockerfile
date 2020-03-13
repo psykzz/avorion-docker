@@ -8,7 +8,10 @@ ENV OVERWRITE_DIRECTORY=/opt/server-overwrite
 
 # Install dependencies
 RUN apt-get update &&\
-    apt-get install -y curl lib32gcc1
+    apt-get install -y software-properties-common &&\
+    add-apt-repository ppa:ubuntu-toolchain-r/test &&\
+    apt-get update &&\
+    apt-get install -y curl lib32gcc1 gcc-5 g++-5
 
 # Download and extract SteamCMD
 RUN mkdir -p /opt/steamcmd &&\
