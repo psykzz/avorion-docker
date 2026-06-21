@@ -13,7 +13,7 @@ RUN dpkg --add-architecture i386 && \
 
 RUN mkdir -p /opt/steamcmd && \
     cd /opt/steamcmd && \
-    curl -s https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz | tar -xz
+    curl -sqL --retry 3 https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz | tar -xz
 
 RUN mkdir -p ${SERVER_DIRECTORY}
 COPY start.sh /opt/start.sh
